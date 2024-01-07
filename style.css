@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:rgb(11, 207, 11);
+}
+
+p{
+    color:white;
+}
+
+.heading-hr{
+    border: 5px solid black;
+    border-bottom: none;
+    border-width: 100%;
+    margin-top: 20px;
+}
+
+.common-hr{
+    border: 2px solid black;
+    border-bottom: none;
+    margin-top: 30px;
+}
+
+.container{
+background-color:teal;
+padding:10px;
+max-width:1000px;
+margin:0 auto;
+}
+
+/* header starts here */
+
+#header-section{
+
+}
+
+.nav{
+
+}
+
+.profile-photo{
+height:120px;
+width:100px;
+border: 5px solid white;
+border-radius: 50%;
+float: left;
+}
+
+.profile-desc{
+float: left;
+margin-top: 30px;
+padding-left: 30px;
+}
+
+.profile-contact{
+float: right;
+margin-top: 30px;
+line-height: 25px;
+
+}
+
+.profile-contact a{
+text-decoration: none;
+color:lavenderblush;
+font-weight: bold;
+
+}
+
+.profile-contact a:hover{
+    text-decoration: underline;
+    color:tomato;
+    
+    
+    }
+
+    /* header ends here */
+
+    /* personal information starts here */
+       #personal-info{
+       padding:20px;
+       }
+
+       .personal-info{
+        
+       }
+
+      .personal-info-left{
+       
+        float: left;
+        width: 30%;
+       
+       }
+
+      .personal-info-right{
+       
+        float: right;
+        width: 70%;
+        
+        
+       }
+    /* personal information ends here */
+
+    /* education start here */
+
+    #education-info{
+        margin-top: 20px;
+    }
+       .education-info-left{
+        width: 30%;
+        float:left;
+       }
+
+       .education-info-right{
+        width: 70%;
+        float: right;
+       }
+
+       .bsc{
+        float: left;
+       }
+
+       .diploma{
+       float: right;
+       }
+
+       .hsc{
+        float: left;
+       }
+
+       .ssc{
+       float: right;
+       }
+    /* education ends here */
+
+    /* footer start here */
+
+    .footer{
+        width: 100%;
+    }
+    .footer-container{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 10px;
+       
+    }
+
+    .footer-menu{
+
+    }
+
+    .footer-menu a{
+      text-decoration: none;
+      color: white; 
+      margin: 0 5px; 
+    }
+
+    .footer-menu a:hover{
+        color: tomato;
+      }
+
+    .copyright{
+        margin-top: 10px;
+    }
+    
+     /* footer ends here */
+
+    
+
+.clear-div{
+    clear: both;
+}
